@@ -1,0 +1,168 @@
+
+
+  <!DOCTYPE html>
+  <html lang="zh-CN">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="renderer" content="webkit">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta name="description" content=你是怎么看到这行字的?总之,你好,我是妹红祈祷中 >
+  <meta name="keywords" content=hexo,theme,MiHoYo >
+
+  <head>
+    <title>
+       [ 妹红祈祷中 ]
+    </title>
+  <meta name="generator" content="Hexo 6.2.0"></head>
+
+  <body>
+
+    <link rel="stylesheet" href="/css/header.css">
+<div class="header">
+  <div class="logo">
+    <span class="pull-left">
+      <a id="site-name" href="/">
+        Mhqdz&#39;s blog
+      </a>
+    </span>
+  </div>
+  <ul class="nav-list">
+    
+      <li>
+        <a href="/">
+          首页
+        </a>
+      </li>
+      
+      <li>
+        <a href="/about">
+          关于
+        </a>
+      </li>
+      
+  </ul>
+</div>
+
+      <!--<link rel="stylesheet" href="/css/top-header.css">
+<div id="top-bar" class="fixed">
+
+  <a class="goto-top" href="#"></a>
+  <ul class="bar-list bar-list-1">
+    
+      <li>
+        <p>
+          <a href="/">
+            <text class="bar-text bar-p1">
+              首页
+            </text>
+            <text class="bar-text bar-p2"></text>
+          </a>
+          <text class="bar-p3">/</text>
+        </p>
+      </li>
+      
+      <li>
+        <p>
+          <a href="/about">
+            <text class="bar-text bar-p1">
+              关于
+            </text>
+            <text class="bar-text bar-p2"></text>
+          </a>
+          <text class="bar-p3">/</text>
+        </p>
+      </li>
+      
+  </ul>
+</div>-->
+
+        <div id="content-outer">
+          <div class="content-inner">
+            <link rel="stylesheet" href="/css/post.css">
+<div class="posts">
+  <a href="/index.html"><i class="fa fa-home
+replay-btn" aria-hidden="true"></i></a>
+  <div class="post-title">
+    <p>
+      
+    </p>
+    <hr>
+  </div>
+  <div class="post-content">
+    <h1 id="mysql"><a href="#mysql" class="headerlink" title="mysql"></a>mysql</h1><h2 id="数据库有关操作"><a href="#数据库有关操作" class="headerlink" title="数据库有关操作"></a>数据库有关操作</h2><p>1.查询时间：select now();</p>
+<p>2.查询当前用户：select user();</p>
+<p>3.查询数据库版本：select version();</p>
+<p>4.列出数据库：show databases;</p>
+<p>5.选择数据库：use databaseName;</p>
+<p>6.建立数据库：create database databaseName;</p>
+<p>7.查看新创建的数据库信息：show create database databaseName;</p>
+<p>8.删除数据库：drop database databaseName;</p>
+<p>数据表有关操作</p>
+<p>1.查看数据表存储引擎：show engines；</p>
+<p>2.列出表格：show tables；</p>
+<p>3.创建表：CREATE TABLE tableName(<br>    c_num int (11) not null  unique primary key auto_increment,<br>    c_name varchar (50),<br>    c_contact varchar (50),<br>    c_city varchar (50),<br>    c_birth datetime not null<br>);</p>
+<p>4.查看表结构：desc tableName;</p>
+<p>5.显示表格列的属性：show columns from tableName;</p>
+<p>6.修改字段类型：alter table tableName modify fieldName newFieldType; </p>
+<p>7.字段改名：alter table tableName change oldFieldName newFieldName newFieldType; </p>
+<p>8.表改名：alter table oldTableName rename newTableName;</p>
+<p>9.复制表：create table tableName2 select * from ttableName1;				&#x2F;&#x2F;‘<em>‘意思是:指查询表或视图中的所有字段,’</em>‘可以使用”字段1,字段2,字段3……”代替</p>
+<ol start="10">
+<li><p>插入表中一行记录：insert into tableName values (“value1”,”value2”,”value3”……);</p>
+</li>
+<li><p>删除表中一行记录：delete from tableName where columnName&#x3D;value; 			&#x2F;&#x2F;不加where将删除全部数据</p>
+</li>
+<li><p>更新表中一行记录：update tableName set columnName&#x3D;value where columnName&#x3D;value; </p>
+</li>
+<li><p>查询表中所有记录：select * from tableName;</p>
+</li>
+<li><p>查询表中单条记录：select * from tableName where columnName&#x3D;value;</p>
+</li>
+<li><p>连表查询：select * from table1,table2 where table1.column&#x3D;table2.column</p>
+</li>
+<li><p>删除表：drop TABLE tableName;</p>
+</li>
+</ol>
+<h2 id="数据表约束"><a href="#数据表约束" class="headerlink" title="数据表约束"></a>数据表约束</h2><p>&#x3D;&#x3D;完整性约束关键字&#x3D;&#x3D;</p>
+<p>NOT NULL:	约束字段值不能为空</p>
+<p>DEFAULT:	设置默认值</p>
+<p>UNIQUE KEY(UK):	约束字段值唯一</p>
+<p>AUTO_INCREMENT:	自增,必须是主键(PRIMARY  KEY)或者唯一键(UNIQUE )才可以设置自增,可以用<code>AUTO_INCREMENT=x</code>使每次自增值为x</p>
+<p>PRIMARY KEY(PK):	主键</p>
+<p>FOREIGN KEY:	外键</p>
+<p>例:</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">create table t_reader1</span><br><span class="line">(</span><br><span class="line">	reader_id INT UNIQUE AUTO_INCREMENT;</span><br><span class="line">	reader_name VARCHAR(50) NOT NULL;</span><br><span class="line">	reader_ser CHAR(2) DEFAULT &quot;男&quot;;</span><br><span class="line">	reader_brithday DATE;</span><br><span class="line">);</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">//将已创建的表(table)t_book的title字段设为非空</span><br><span class="line">ALTER TABLE t_book MODIFY title CHAR(17) NOT NULL;</span><br><span class="line"></span><br><span class="line">//为数据表t-press设置主键press_id,为t_book设置主键title和外键tp_pressid, 外键press_id对应t-press表中的主键press_id</span><br><span class="line">ALTER TABLE t_press ADD PRIMARY KEY press_id;</span><br><span class="line">ALTER TABLE t_book ADD PRIMARY KEY title;</span><br><span class="line">ALTER TABLE t_book CONSTRAINT tp_pressid</span><br><span class="line">FOREIGN KEY(press_id)REFERENCES t_press(press_id);</span><br></pre></td></tr></table></figure>
+
+
+
+
+  </div>
+  
+</div>
+          </div>
+        </div>
+
+        <link rel="stylesheet" href="/css/footer.css">
+<div class="bottom-outer">
+  <div class="copyright">©2021 - 2021 By Tanger</div>
+  <div class="framework-info">
+    <span>Power by</span>
+    <a class="a1" target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>
+    <span class="footer-separator">|</span>
+    <span>Theme by</span>
+    <a class="a2" target="_blank" rel="noopener" href="https://github.com/redhat123456/hexo-theme-MiHoYo">MiHoYo</a>
+  </div>
+</div>
+
+          
+            <!-- scripts list from theme config.yml -->
+            
+              <script src="/js/MiHoYo.js"></script>
+              
+                
+
+  </body>
+
+  </html>

@@ -1,0 +1,434 @@
+
+
+  <!DOCTYPE html>
+  <html lang="zh-CN">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="renderer" content="webkit">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta name="description" content=你是怎么看到这行字的?总之,你好,我是妹红祈祷中 >
+  <meta name="keywords" content=hexo,theme,MiHoYo >
+
+  <head>
+    <title>
+       [ 妹红祈祷中 ]
+    </title>
+  <meta name="generator" content="Hexo 6.2.0"></head>
+
+  <body>
+
+    <link rel="stylesheet" href="/css/header.css">
+<div class="header">
+  <div class="logo">
+    <span class="pull-left">
+      <a id="site-name" href="/">
+        Mhqdz&#39;s blog
+      </a>
+    </span>
+  </div>
+  <ul class="nav-list">
+    
+      <li>
+        <a href="/">
+          首页
+        </a>
+      </li>
+      
+      <li>
+        <a href="/about">
+          关于
+        </a>
+      </li>
+      
+  </ul>
+</div>
+
+      <!--<link rel="stylesheet" href="/css/top-header.css">
+<div id="top-bar" class="fixed">
+
+  <a class="goto-top" href="#"></a>
+  <ul class="bar-list bar-list-1">
+    
+      <li>
+        <p>
+          <a href="/">
+            <text class="bar-text bar-p1">
+              首页
+            </text>
+            <text class="bar-text bar-p2"></text>
+          </a>
+          <text class="bar-p3">/</text>
+        </p>
+      </li>
+      
+      <li>
+        <p>
+          <a href="/about">
+            <text class="bar-text bar-p1">
+              关于
+            </text>
+            <text class="bar-text bar-p2"></text>
+          </a>
+          <text class="bar-p3">/</text>
+        </p>
+      </li>
+      
+  </ul>
+</div>-->
+
+        <div id="content-outer">
+          <div class="content-inner">
+            <link rel="stylesheet" href="/css/post.css">
+<div class="posts">
+  <a href="/index.html"><i class="fa fa-home
+replay-btn" aria-hidden="true"></i></a>
+  <div class="post-title">
+    <p>
+      
+    </p>
+    <hr>
+  </div>
+  <div class="post-content">
+    <figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">extern</span> <span class="type">int</span> i;          <span class="comment">//声明i但不定义</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="正则表达式"><a href="#正则表达式" class="headerlink" title="正则表达式"></a>正则表达式</h2><p><a target="_blank" rel="noopener" href="https://www.zhihu.com/question/48219401/answer/742444326">知乎-正则表达式</a></p>
+<h2 id="可变数组vector"><a href="#可变数组vector" class="headerlink" title="可变数组vector"></a>可变数组vector</h2><p>属于<code>&lt;vector&gt;</code>库</p>
+<h3 id="常用方法"><a href="#常用方法" class="headerlink" title="常用方法"></a>常用方法</h3><table>
+<thead>
+<tr>
+<th>成员函数</th>
+<th>作 用</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>vector()</td>
+<td>无参构造函数，将容器初始化为空</td>
+</tr>
+<tr>
+<td>vector(int n)</td>
+<td>将容器初始化为有 n 个元素</td>
+</tr>
+<tr>
+<td>vector(int n, const T &amp; val)</td>
+<td>假定元素的类型是 T，此构造函数将容器初始化为有 n 个元素，每 个元素的值都是 val</td>
+</tr>
+<tr>
+<td>vector(iterator first, iterator last)</td>
+<td>first 和 last 可以是其他容器的迭代器。一般来说，本构造函数初始化的结果就是将 vector 容器的内容变成与其他容器上的区间 [first, last) —致</td>
+</tr>
+<tr>
+<td>void clear()</td>
+<td>删除所有元素</td>
+</tr>
+<tr>
+<td>bool empty()</td>
+<td>判断容器是否为空</td>
+</tr>
+<tr>
+<td>emplace_back()</td>
+<td>更高效的void push_back(const T &amp; val)</td>
+</tr>
+<tr>
+<td>void pop_back()</td>
+<td>删除容器末尾的元素</td>
+</tr>
+<tr>
+<td>void push_back( const T &amp; val)</td>
+<td>将 val 添加到容器末尾</td>
+</tr>
+<tr>
+<td>int size()</td>
+<td>返回容器中元素的个数</td>
+</tr>
+<tr>
+<td>T &amp; front()</td>
+<td>返回容器中第一个元素的引用</td>
+</tr>
+<tr>
+<td>T &amp; back()</td>
+<td>返回容器中最后一个元素的引用</td>
+</tr>
+<tr>
+<td>iterator insert(iterator i, const T &amp; val)</td>
+<td>将 val 插入迭代器 i 指向的位置，返回 i</td>
+</tr>
+<tr>
+<td>iterator insert( iterator i, iterator first, iterator last)</td>
+<td>将其他容器上的区间 [first, last) 中的元素插入迭代器 i 指向的位置</td>
+</tr>
+<tr>
+<td>iterator erase(iterator i)</td>
+<td>删除迭代器 i 指向的元素，返回值是被删元素后面的元素的迭代器</td>
+</tr>
+<tr>
+<td>iterator erase(iterator first, iterator last)</td>
+<td>删除容器中的区间 [first, last)</td>
+</tr>
+<tr>
+<td>void swap( vector <T> &amp; v)</td>
+<td>将容器自身的内容和另一个同类型的容器 v 互换</td>
+</tr>
+</tbody></table>
+<h3 id="rbegin-和rend"><a href="#rbegin-和rend" class="headerlink" title="rbegin()和rend()"></a>rbegin()和rend()</h3><h2 id="队列Queue"><a href="#队列Queue" class="headerlink" title="队列Queue"></a>队列Queue</h2><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;queue&gt;</span></span></span><br></pre></td></tr></table></figure>
+
+<p><strong>C++队列Queue类成员函数如下:</strong></p>
+<p>back()返回最后一个元素</p>
+<p>empty()如果队列空则返回真</p>
+<p>front()返回第一个元素</p>
+<p>pop()删除第一个元素</p>
+<p>push()在末尾加入一个元素</p>
+<p>size()返回队列中元素的个数</p>
+<p>&#x3D;&#x3D;实例&#x3D;&#x3D;</p>
+<p>初始化</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="function">std::deque&lt;<span class="type">int</span>&gt; <span class="title">mydeck</span><span class="params">(<span class="number">3</span>, <span class="number">100</span>)</span></span>;        <span class="comment">// 双端队列里初始化3个元素，都是100</span></span><br><span class="line"><span class="function">std::list&lt;<span class="type">int</span>&gt; <span class="title">mylist</span><span class="params">(<span class="number">2</span>, <span class="number">200</span>)</span></span>;         <span class="comment">// list 容器里初始化2个元素，都是200</span></span><br><span class="line">std::queue&lt;<span class="type">int</span>&gt; first;                 <span class="comment">// 初始化一个空队列</span></span><br><span class="line"><span class="function">std::queue&lt;<span class="type">int</span>&gt; <span class="title">second</span><span class="params">(mydeck)</span></span>;        <span class="comment">// 复制 mydeck 的内容初始化队列</span></span><br><span class="line">std::queue&lt;<span class="type">int</span>, std::list&lt;<span class="type">int</span>&gt; &gt; third; <span class="comment">// 初始化空队列，底层使用 list 容器</span></span><br><span class="line">std::queue&lt;<span class="type">int</span>, std::list&lt;<span class="type">int</span>&gt; &gt; <span class="built_in">fourth</span>(mylist);    <span class="comment">// 复制 mylist 的内容初始化队列，底层使用 list 容器</span></span><br><span class="line">std::cout &lt;&lt; <span class="string">&quot;size of first: &quot;</span> &lt;&lt; first.<span class="built_in">size</span>() &lt;&lt; std::endl; <span class="comment">// 0</span></span><br><span class="line">std::cout &lt;&lt; <span class="string">&quot;size of second: &quot;</span> &lt;&lt; second.<span class="built_in">size</span>() &lt;&lt; std::endl; <span class="comment">// 3</span></span><br><span class="line">std::cout &lt;&lt; <span class="string">&quot;size of third: &quot;</span> &lt;&lt; third.<span class="built_in">size</span>() &lt;&lt; std::endl; <span class="comment">// 0</span></span><br><span class="line">std::cout &lt;&lt; <span class="string">&quot;size of fourth: &quot;</span> &lt;&lt; fourth.<span class="built_in">size</span>() &lt;&lt; std::endl; <span class="comment">// 2</span></span><br></pre></td></tr></table></figure>
+
+<p>判空</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">std::queue&lt;<span class="type">int</span>&gt; myqueue1;</span><br><span class="line"><span class="type">bool</span> empty1 = myqueue1.<span class="built_in">empty</span>(); <span class="comment">// true</span></span><br><span class="line"><span class="function">std::queue&lt;<span class="type">int</span>&gt; <span class="title">myqueue2</span><span class="params">(&#123;<span class="number">100</span>,<span class="number">100</span>&#125;)</span></span>;</span><br><span class="line"><span class="type">bool</span> empty2 = myqueue2.<span class="built_in">empty</span>(); <span class="comment">// false</span></span><br></pre></td></tr></table></figure>
+
+<p>获得元素个数</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">std::queue&lt;<span class="type">int</span>&gt; myints;</span><br><span class="line">std::cout &lt;&lt; <span class="string">&quot;0. size: &quot;</span> &lt;&lt; myints.<span class="built_in">size</span>() &lt;&lt; std::endl; <span class="comment">// 输出：0</span></span><br><span class="line"><span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">0</span>; i &lt; <span class="number">5</span>; i++) myints.<span class="built_in">push</span>(i);</span><br><span class="line">std::cout &lt;&lt; <span class="string">&quot;1. size: &quot;</span> &lt;&lt; myints.<span class="built_in">size</span>() &lt;&lt; std::endl; <span class="comment">// 输出：5</span></span><br><span class="line">myints.<span class="built_in">pop</span>();</span><br><span class="line">std::cout &lt;&lt; <span class="string">&quot;2. size: &quot;</span> &lt;&lt; myints.<span class="built_in">size</span>() &lt;&lt; std::endl; <span class="comment">// 输出：4</span></span><br></pre></td></tr></table></figure>
+
+<p>返回头元素引用</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">std::queue&lt;<span class="type">int</span>&gt; myqueue3;</span><br><span class="line">myqueue3.<span class="built_in">push</span>(<span class="number">77</span>);</span><br><span class="line">myqueue3.<span class="built_in">push</span>(<span class="number">66</span>);</span><br><span class="line"><span class="type">int</span>&amp; a1 = myqueue3.<span class="built_in">front</span>(); <span class="comment">// 77</span></span><br><span class="line"><span class="type">int</span> a2 = myqueue3.<span class="built_in">front</span>(); <span class="comment">// 77</span></span><br><span class="line">myqueue3.<span class="built_in">front</span>() = <span class="number">88</span>; <span class="comment">// 给头元素77赋值为88</span></span><br><span class="line">std::cout &lt;&lt; <span class="string">&quot;front:&quot;</span> &lt;&lt; myqueue3.<span class="built_in">front</span>() &lt;&lt; std::endl; <span class="comment">// 输出：88</span></span><br></pre></td></tr></table></figure>
+
+<p>返回末尾元素引用</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">std::queue&lt;<span class="type">int</span>&gt; myqueue4;</span><br><span class="line">myqueue4.<span class="built_in">push</span>(<span class="number">77</span>);</span><br><span class="line">myqueue4.<span class="built_in">push</span>(<span class="number">66</span>);</span><br><span class="line"><span class="type">int</span>&amp; b1 = myqueue4.<span class="built_in">back</span>(); <span class="comment">// 66</span></span><br><span class="line"><span class="type">int</span> b2 = myqueue4.<span class="built_in">back</span>(); <span class="comment">// 66</span></span><br><span class="line">myqueue4.<span class="built_in">back</span>() = <span class="number">33</span>; <span class="comment">// 给末尾元素66赋值为33</span></span><br><span class="line">std::cout &lt;&lt; <span class="string">&quot;front:&quot;</span> &lt;&lt; myqueue4.<span class="built_in">front</span>() &lt;&lt; std::endl; <span class="comment">// 输出：33</span></span><br></pre></td></tr></table></figure>
+
+<p>入队&#x2F;出队</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">std::queue&lt;<span class="type">int</span>&gt; myqueue5;</span><br><span class="line">myqueue5.<span class="built_in">push</span>(<span class="number">55</span>); <span class="comment">// 无返回值，入队了一个55，size()==1</span></span><br><span class="line">myqueue5.<span class="built_in">push</span>(<span class="number">45</span>); <span class="comment">// size()==2</span></span><br><span class="line">myqueue5.<span class="built_in">pop</span>(); <span class="comment">// 无返回值，出队了一个55，size()==1</span></span><br><span class="line">myqueue5.<span class="built_in">emplace</span>(<span class="number">45</span>);<span class="comment">//另一种入队，其底层容器调用了emplace_back方法</span></span><br></pre></td></tr></table></figure>
+
+<p>交换</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">std::queue&lt;<span class="type">int</span>&gt; teeth;</span><br><span class="line">teeth.<span class="built_in">emplace</span>(<span class="number">4</span>); teeth.<span class="built_in">emplace</span>(<span class="number">7</span>);</span><br><span class="line">std::queue&lt;<span class="type">int</span>&gt; bags;</span><br><span class="line">bags.<span class="built_in">emplace</span>(<span class="number">4</span>); bags.<span class="built_in">emplace</span>(<span class="number">7</span>); bags.<span class="built_in">emplace</span>(<span class="number">7</span>);</span><br><span class="line">bags.<span class="built_in">swap</span>(teeth);</span><br><span class="line">std::cout &lt;&lt; teeth.<span class="built_in">size</span>() &lt;&lt; std::endl; <span class="comment">//输出：3</span></span><br><span class="line">std::cout &lt;&lt; bags.<span class="built_in">size</span>() &lt;&lt; std::endl; <span class="comment">//输出：2</span></span><br></pre></td></tr></table></figure>
+
+<p>运算符 &#x3D; !&#x3D; &gt; &gt;&#x3D; &lt; &lt;&#x3D;</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// [==]当两个队列front()内容一致，返回true</span></span><br><span class="line">std::queue&lt;<span class="type">int</span>&gt; q1, q2;</span><br><span class="line"><span class="type">bool</span> ret = q1 == q2; <span class="comment">// ret为true</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// [!=]当两个队列元素front()不相等，返回true</span></span><br><span class="line">std::queue&lt;<span class="type">int</span>&gt; q3, q4;</span><br><span class="line">q3.<span class="built_in">push</span>(<span class="number">1</span>);</span><br><span class="line"><span class="type">bool</span> ret2 = q3 != q4; <span class="comment">// ret2为true</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// [&gt;]左边队列的front()的元素大于右边队列pop的元素，则返回true.</span></span><br><span class="line">std::queue&lt;<span class="type">int</span>&gt; q5, q6;</span><br><span class="line">q5.<span class="built_in">push</span>(<span class="number">1</span>); q5.<span class="built_in">push</span>(<span class="number">2</span>); q5.<span class="built_in">push</span>(<span class="number">2</span>);</span><br><span class="line">q6.<span class="built_in">push</span>(<span class="number">0</span>); q6.<span class="built_in">push</span>(<span class="number">2</span>);</span><br><span class="line"><span class="type">bool</span> ret3 = q5 &gt;= q6; <span class="comment">// ret3为true，因为1大于0</span></span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="头文件"><a href="#头文件" class="headerlink" title="头文件"></a>头文件</h2><h3 id="algorithm-算法库"><a href="#algorithm-算法库" class="headerlink" title="algorithm(算法库)"></a>algorithm(算法库)</h3><p>&#x3D;&#x3D;sort()&#x3D;&#x3D;:</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="type">bool</span> <span class="title">cmp</span><span class="params">(<span class="type">int</span> a,<span class="type">int</span> b)</span></span>&#123;<span class="comment">//此处为从大到小排序</span></span><br><span class="line">　　<span class="keyword">return</span> a&gt;b;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">std::<span class="built_in">sort</span>(arr.<span class="built_in">begin</span>(),arr.<span class="built_in">end</span>());</span><br><span class="line">std::<span class="built_in">sort</span>(arr.<span class="built_in">begin</span>(),arr.<span class="built_in">begin</span>()+arr.<span class="built_in">size</span>());</span><br><span class="line">std::<span class="built_in">sort</span>(arr.<span class="built_in">begin</span>(),arr.<span class="built_in">begin</span>()+arr.<span class="built_in">size</span>(),cmp;</span><br><span class="line">std::<span class="built_in">sort</span>(arr.<span class="built_in">rbegin</span>(),arr.<span class="built_in">rend</span>());<span class="comment">//反向迭代器,这样写也可以做到由大到小排</span></span><br></pre></td></tr></table></figure>
+
+<p>&#x3D;&#x3D;_<em>gcd(int,int)&#x3D;&#x3D;:最大公约数 注意是两个’</em>‘ 用go写就是这个</p>
+<figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">gcd</span><span class="params">(a, b <span class="type">int</span>)</span></span> <span class="type">int</span> &#123;</span><br><span class="line">    <span class="keyword">for</span> a != <span class="number">0</span> &#123;</span><br><span class="line">        a, b = b%a, a</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> b</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="function"><a href="#function" class="headerlink" title="function"></a>function</h3><p>std::function是一个函数包装器，该函数包装器模板能包装任何类型的可调用实体，如普通函数，函数对象，lamda表达式等。包装器可拷贝，移动等，并且包装器类型仅仅依赖于调用特征，而不依赖于可调用元素自身的类型。std::function是C++11的新特性，包含在头文件<functional>中。</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//定义void dfs(int,int,int)&#123;&#125;</span></span><br><span class="line">function&lt;<span class="type">void</span> (<span class="type">int</span>,<span class="type">int</span>,<span class="type">int</span>)&gt; dfs=[&amp;](<span class="type">int</span> x,<span class="type">int</span> y,<span class="type">int</span> gold)&#123;&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">//function&lt;int(int)&gt; dfs =[&amp;](int x)int&#123;return x;&#125; 省略&quot;-&gt;&quot;是不规范的lambda表达式，在很多编译器以及蓝桥上可通过，但力扣会报错</span></span><br><span class="line">function&lt;<span class="built_in">int</span>(<span class="type">int</span>)&gt; dfs =[&amp;](<span class="type">int</span> x)-&gt;<span class="type">int</span>&#123;<span class="keyword">return</span> x;&#125;;</span><br><span class="line"></span><br><span class="line">[&amp;,a,b]()-&gt;<span class="type">int</span>&#123;&#125;<span class="comment">//以只读的方式读入a,b,-&gt;后面表示返回</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="unordered-set"><a href="#unordered-set" class="headerlink" title="unordered_set"></a>unordered_set</h3><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;unordered_set&gt;</span></span></span><br></pre></td></tr></table></figure>
+
+<p>不能含有重复元素的容器</p>
+<table>
+<thead>
+<tr>
+<th>成员方法</th>
+<th>功能</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>begin()</td>
+<td>返回指向容器中第一个元素的正向迭代器。</td>
+</tr>
+<tr>
+<td>end();</td>
+<td>返回指向容器中最后一个元素之后位置的正向迭代器。</td>
+</tr>
+<tr>
+<td>cbegin()</td>
+<td>和 begin() 功能相同，只不过其返回的是 const 类型的正向迭代器。</td>
+</tr>
+<tr>
+<td>cend()</td>
+<td>和 end() 功能相同，只不过其返回的是 const 类型的正向迭代器。</td>
+</tr>
+<tr>
+<td>empty()</td>
+<td>若容器为空，则返回 true；否则 false。</td>
+</tr>
+<tr>
+<td>size()</td>
+<td>返回当前容器中存有元素的个数。</td>
+</tr>
+<tr>
+<td>max_size()</td>
+<td>返回容器所能容纳元素的最大个数，不同的操作系统，其返回值亦不相同。</td>
+</tr>
+<tr>
+<td>find(key)</td>
+<td>查找以值为 key 的元素，如果找到，则返回一个指向该元素的正向迭代器；反之，则返回一个指向容器中最后一个元素之后位置的迭代器（如果 end() 方法返回的迭代器）。</td>
+</tr>
+<tr>
+<td>count(key)</td>
+<td>在容器中查找值为 key 的元素的个数。</td>
+</tr>
+<tr>
+<td>equal_range(key)</td>
+<td>返回一个 pair 对象，其包含 2 个迭代器，用于表明当前容器中值为 key 的元素所在的范围。</td>
+</tr>
+<tr>
+<td>emplace()</td>
+<td>向容器中添加新元素，效率比 insert() 方法高。</td>
+</tr>
+<tr>
+<td>emplace_hint()</td>
+<td>向容器中添加新元素，效率比 insert() 方法高。</td>
+</tr>
+<tr>
+<td>insert()</td>
+<td>向容器中添加新元素。</td>
+</tr>
+<tr>
+<td>erase()</td>
+<td>删除指定元素。</td>
+</tr>
+<tr>
+<td>clear()</td>
+<td>清空容器，即删除容器中存储的所有元素。</td>
+</tr>
+<tr>
+<td>swap()</td>
+<td>交换 2 个 unordered_map 容器存储的元素，前提是必须保证这 2 个容器的类型完全相等。</td>
+</tr>
+<tr>
+<td>bucket_count()</td>
+<td>返回当前容器底层存储元素时，使用桶（一个线性链表代表一个桶）的数量。</td>
+</tr>
+<tr>
+<td>max_bucket_count()</td>
+<td>返回当前系统中，unordered_map 容器底层最多可以使用多少桶。</td>
+</tr>
+<tr>
+<td>bucket_size(n)</td>
+<td>返回第 n 个桶中存储元素的数量。</td>
+</tr>
+<tr>
+<td>bucket(key)</td>
+<td>返回值为 key 的元素所在桶的编号。</td>
+</tr>
+<tr>
+<td>load_factor()</td>
+<td>返回 unordered_map 容器中当前的负载因子。负载因子，指的是的当前容器中存储元素的数量（size()）和使用桶数（bucket_count()）的比值，即 load_factor() &#x3D; size() &#x2F; bucket_count()。</td>
+</tr>
+<tr>
+<td>max_load_factor()</td>
+<td>返回或者设置当前 unordered_map 容器的负载因子。</td>
+</tr>
+<tr>
+<td>rehash(n)</td>
+<td>将当前容器底层使用桶的数量设置为 n。</td>
+</tr>
+<tr>
+<td>reserve()</td>
+<td>将存储桶的数量（也就是 bucket_count() 方法的返回值）设置为至少容纳count个元（不超过最大负载因子）所需的数量，并重新整理容器。</td>
+</tr>
+<tr>
+<td>hash_function()</td>
+<td>返回当前容器使用的哈希函数对象。</td>
+</tr>
+</tbody></table>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;string&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;unordered_set&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="comment">//创建一个空的unordered_set容器</span></span><br><span class="line">    std::unordered_set&lt;std::string&gt; uset;</span><br><span class="line">    <span class="comment">//给 uset 容器添加数据</span></span><br><span class="line">    uset.<span class="built_in">emplace</span>(<span class="string">&quot;http://c.biancheng.net/java/&quot;</span>);</span><br><span class="line">    uset.<span class="built_in">emplace</span>(<span class="string">&quot;http://c.biancheng.net/c/&quot;</span>);</span><br><span class="line">    uset.<span class="built_in">emplace</span>(<span class="string">&quot;http://c.biancheng.net/python/&quot;</span>);</span><br><span class="line">    <span class="comment">//查看当前 uset 容器存储元素的个数</span></span><br><span class="line">    cout &lt;&lt; <span class="string">&quot;uset size = &quot;</span> &lt;&lt; uset.<span class="built_in">size</span>() &lt;&lt; endl;</span><br><span class="line">    <span class="comment">//遍历输出 uset 容器存储的所有元素</span></span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">auto</span> iter = uset.<span class="built_in">begin</span>(); iter != uset.<span class="built_in">end</span>(); ++iter) &#123;</span><br><span class="line">        cout &lt;&lt; *iter &lt;&lt; endl;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="位、进制、原补反码"><a href="#位、进制、原补反码" class="headerlink" title="位、进制、原补反码"></a>位、进制、原补反码</h2><p>打印对应进制</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;bitset&gt;</span> <span class="comment">//输出二进制的头文件</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"> </span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="type">int</span> a = <span class="number">2149580819</span>;</span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;八进制： &quot;</span> &lt;&lt; oct &lt;&lt; a &lt;&lt; endl;</span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;十进制： &quot;</span> &lt;&lt; dec &lt;&lt; a &lt;&lt; endl;</span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;十六进制： &quot;</span> &lt;&lt; hex &lt;&lt; a &lt;&lt; endl;</span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;二进制： &quot;</span> &lt;&lt; <span class="built_in">bitset</span>&lt;<span class="built_in">sizeof</span>(a)*<span class="number">8</span>&gt;(a) &lt;&lt; endl;</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>原码:</p>
+<p>​		正数:对应的二进制码</p>
+<p>​		负数:最高位符号位为1,其余是对应的二进制码</p>
+<p>反码:</p>
+<p>​		对原码按位取反,在c++中使用’~’作为取反符号</p>
+<p>补码:</p>
+<p>​		反码加一,在程序中<code>负数以补码形式存储</code></p>
+<p>#include&lt;bits&#x2F;stdc++.h&gt;<br>using namespace std;<br>int main(){<br>    int a&#x3D;-1,b&#x3D;100;<br>    cout&lt;&lt;bitset&lt;sizeof(a)*8&gt;(a)&lt;&lt;”  -1”&lt;&lt;endl&lt;&lt;bitset&lt;sizeof(<del>a)*8&gt;(</del>a)&lt;&lt;”  <del>(-1)”&lt;&lt;endl&lt;&lt;endl&lt;&lt;bitset&lt;sizeof(b)*8&gt;(b)&lt;&lt;”  100”&lt;&lt;endl&lt;&lt;bitset&lt;sizeof(</del>b)*8&gt;(~b)&lt;&lt;”  ~(100)”;<br> return 0;<br>}</p>
+<h2 id="c-基础"><a href="#c-基础" class="headerlink" title="c++基础"></a>c++基础</h2><h3 id="namespace-命名空间"><a href="#namespace-命名空间" class="headerlink" title="namespace(命名空间)"></a>namespace(命名空间)</h3><p>为了避免不同编译者定义不同变量的情况,使用命名空间独立开了各自的变量</p>
+<p>使用命名空间可以使用using namespace全局引用,也可以使用<code>::</code>局部引用</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="keyword">namespace</span> a&#123;</span><br><span class="line">    <span class="keyword">class</span> <span class="title class_">peo</span>&#123;</span><br><span class="line">    <span class="keyword">public</span>:</span><br><span class="line">        <span class="type">int</span> v;</span><br><span class="line">        <span class="function"><span class="type">void</span> <span class="title">say</span><span class="params">()</span></span>&#123;</span><br><span class="line">            <span class="built_in">printf</span>(<span class="string">&quot;%d&quot;</span>,v);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> a;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    peo p;</span><br><span class="line">    p.v=<span class="number">1</span>;</span><br><span class="line">    p.<span class="built_in">say</span>();</span><br><span class="line">  <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h4 id="std命名空间"><a href="#std命名空间" class="headerlink" title="std命名空间"></a>std命名空间</h4><p>c++演变中,经历了一次巨大更新,为了避免老版本的东西无法使用,他们就把所有更新内容整到std内容空间中了,即不使用std的c++就是老版本c++,该改动中去掉了.h后缀,并给所有c的库加上了前缀’c’,如”math.h”被重命名为”cmath”,std命名空间中添加了我们所熟知的<code>cin&gt;&gt;</code>,<code>cout&lt;&lt;</code></p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="type">int</span> x;</span><br><span class="line">    cin&gt;&gt;x;</span><br><span class="line">    cout&lt;&lt;x&lt;&lt;endl;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>把<code>using namespace std;</code>写在全局并不规范,会增加命名冲突的风险,但是方便</p>
+<h4 id="输入输出"><a href="#输入输出" class="headerlink" title="输入输出"></a>输入输出</h4><p>使用输入输出时，需要包含头文件<code>iostream</code>，它包含了用于输入输出的对象，例如常见的<code>cin</code>表示标准输入、<code>cout</code>表示标准输出、<code>cerr</code>表示标准错误</p>
+<h3 id="bool"><a href="#bool" class="headerlink" title="bool"></a>bool</h3><p>c++支持bool,但是默认以1和0输出,如果要输出true or false则需要使用boolalpha</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">bool</span> ok=<span class="literal">true</span>;</span><br><span class="line">cout&lt;&lt;ok&lt;&lt;endl;<span class="comment">//1</span></span><br><span class="line">cout&lt;&lt;boolalpha&lt;&lt;ok&lt;&lt;endl;<span class="comment">//true</span></span><br><span class="line">cout&lt;&lt;noboolalpha&lt;&lt;ok&lt;&lt;endl;<span class="comment">//1</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="new-和-delete"><a href="#new-和-delete" class="headerlink" title="new 和 delete"></a>new 和 delete</h3><p>申请、释放内存</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">int</span> *p = <span class="keyword">new</span> <span class="type">int</span>;<span class="comment">//分配1个int型的内存空间</span></span><br><span class="line"><span class="keyword">delete</span> p;<span class="comment">//释放内存</span></span><br><span class="line"></span><br><span class="line"><span class="type">int</span> *p = <span class="keyword">new</span> <span class="type">int</span>[<span class="number">10</span>];<span class="comment">//分配10个int型的内存空间</span></span><br><span class="line"><span class="keyword">delete</span>[] p;<span class="comment">//释放内存</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="inline-内联函数"><a href="#inline-内联函数" class="headerlink" title="inline(内联函数)"></a>inline(内联函数)</h3><p>即编译时,不是以调用的形式把函数放在外面调用,而是直接替换掉每一次调用</p>
+<p>在 c&#x2F;c++ 中，为了解决一些频繁调用的小函数大量消耗栈空间（栈内存）的问题，特别的引入了 <strong>inline</strong> 修饰符，表示为内联函数。</p>
+<p>栈空间就是指放置程序的局部数据（也就是函数内数据）的内存空间。</p>
+<p>在系统下，栈空间是有限的，假如频繁大量的使用就会造成因栈空间不足而导致程序出错的问题，如，函数的死循环递归调用的最终结果就是导致栈内存空间枯竭。</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="function"><span class="keyword">inline</span> <span class="type">const</span> <span class="type">char</span> *<span class="title">num_check</span><span class="params">(<span class="type">int</span> v)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">return</span> (v % <span class="number">2</span> &gt; <span class="number">0</span>) ? <span class="string">&quot;奇&quot;</span> : <span class="string">&quot;偶&quot;</span>;</span><br><span class="line">&#125;</span><br><span class="line"> </span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">(<span class="type">void</span>)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="type">int</span> i;</span><br><span class="line">    <span class="keyword">for</span> (i = <span class="number">0</span>; i &lt; <span class="number">100</span>; i++)</span><br><span class="line">        <span class="built_in">printf</span>(<span class="string">&quot;%02d   %s\n&quot;</span>, i, <span class="built_in">num_check</span>(i));</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h4 id="inline使用限制"><a href="#inline使用限制" class="headerlink" title="inline使用限制"></a>inline使用限制</h4><p><strong>inline</strong> 的使用是有所限制的，inline 只适合涵数体内代码简单的涵数使用，不能包含复杂的结构控制语句例如 while、switch，并且不能内联函数本身不能是直接递归函数（即，自己内部还调用自己的函数）。</p>
+<h4 id="inline仅是一个对编译器的建议"><a href="#inline仅是一个对编译器的建议" class="headerlink" title="inline仅是一个对编译器的建议"></a>inline仅是一个对编译器的建议</h4><p><strong>inline</strong> 函数仅仅是一个对编译器的建议，所以最后能否真正内联，看编译器的意思，它如果认为函数不复杂，能在调用点展开，就会真正内联，并不是说声明了内联就会内联，声明内联只是一个建议而已。</p>
+<h4 id="建议-inline-函数的定义放在头文件中"><a href="#建议-inline-函数的定义放在头文件中" class="headerlink" title="建议 inline 函数的定义放在头文件中"></a>建议 inline 函数的定义放在头文件中</h4><p>其次，因为内联函数要在调用点展开，所以<strong>编译器必须随处可见内联函数的定义</strong>，要不然就成了非内联函数的调用了。所以，这要求每个调用了内联函数的文件都出现了该<strong>内联函数的定义</strong>。</p>
+<p>因此，将<strong>内联函数的定义</strong>放在<strong>头文件</strong>里实现是合适的，省却你为每个文件实现一次的麻烦。</p>
+<p><strong>声明跟定义要一致</strong>：如果在每个文件里都实现一次该内联函数的话，那么，最好保证每个定义都是一样的，否则，将会引起未定义的行为。如果不是每个文件里的定义都一样，那么，编译器展开的是哪一个，那要看具体的编译器而定。所以，最好将<strong>内联函数定义</strong>放在<strong>头文件</strong>中。</p>
+<h4 id="类中的成员函数与inline"><a href="#类中的成员函数与inline" class="headerlink" title="类中的成员函数与inline"></a>类中的成员函数与inline</h4><p><strong>定义</strong>在类中的<strong>成员函数</strong>默认都是<strong>内联的</strong>，如果在类定义时就在类内给出函数定义，那当然最好。如果在类中未给出成员函数定义，而又想内联该函数的话，那在类外要加上 <strong>inline</strong>，否则就认为不是内联的。</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 头文件</span></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">A</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">public</span>:</span><br><span class="line">    <span class="function"><span class="type">void</span> <span class="title">Foo</span><span class="params">(<span class="type">int</span> x, <span class="type">int</span> y)</span></span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// 定义文件,声明内联</span></span><br><span class="line"><span class="function"><span class="keyword">inline</span> <span class="type">void</span> <span class="title">A::Foo</span><span class="params">(<span class="type">int</span> x, <span class="type">int</span> y)</span></span>&#123;&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="static-静态成员变量"><a href="#static-静态成员变量" class="headerlink" title="static(静态成员变量)"></a>static(静态成员变量)</h3><p>静态成员变量是一种特殊的成员变量,它被关键字<code>static</code>修饰,它不占用额外内存,它是相同class的所有变量(如:stu li,stu wang)共用</p>
+<h3 id="string"><a href="#string" class="headerlink" title="string"></a>string</h3><p>属于<code>&lt;string&gt;</code>库</p>
+<p>&#x3D;&#x3D;转char[]&#x3D;&#x3D;</p>
+<p><code>c_str()</code>,将string转为对应的<code>const char[]</code></p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">string s=<span class="string">&quot;hello&quot;</span>;</span><br><span class="line"><span class="type">const</span> <span class="type">char</span> * arr=s.<span class="built_in">c_str</span>()</span><br></pre></td></tr></table></figure>
+
+<h4 id="string的增删改查"><a href="#string的增删改查" class="headerlink" title="string的增删改查"></a>string的增删改查</h4><p>&#x3D;&#x3D;插入&#x3D;&#x3D;</p>
+<p>insert()</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">string s=<span class="string">&quot;012345&quot;</span>;</span><br><span class="line">s=s.<span class="built_in">insert</span>(<span class="number">2</span>,<span class="string">&quot;hello&quot;</span>);</span><br></pre></td></tr></table></figure>
+
+<p>s最终为：01hello2345</p>
+<p>&#x3D;&#x3D;删除&#x3D;&#x3D;</p>
+<p>erase()</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">string s1, s2, s3;</span><br><span class="line">s1 = s2 = s3 = <span class="string">&quot;1234567890&quot;</span>;</span><br><span class="line">s2.<span class="built_in">erase</span>(<span class="number">5</span>);</span><br><span class="line">s3.<span class="built_in">erase</span>(<span class="number">5</span>, <span class="number">3</span>);</span><br><span class="line">cout&lt;&lt; s1 &lt;&lt;endl;<span class="comment">//1234567890</span></span><br><span class="line">cout&lt;&lt; s2 &lt;&lt;endl;<span class="comment">//12345</span></span><br><span class="line">cout&lt;&lt; s3 &lt;&lt;endl;<span class="comment">//1234590</span></span><br></pre></td></tr></table></figure>
+
+<p>&#x3D;&#x3D;提取&#x3D;&#x3D;</p>
+<p>substr(),类似切片</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">string s=<span class="string">&quot;012345&quot;</span>;</span><br><span class="line">s=s.<span class="built_in">substr</span>(<span class="number">2</span>,<span class="number">3</span>);</span><br><span class="line">cout&lt;&lt;s;<span class="comment">//234</span></span><br></pre></td></tr></table></figure>
+
+<p>&#x3D;&#x3D;查找&#x3D;&#x3D;</p>
+<p>(1) find(string str,int n)</p>
+<p>从第n个位置开始查找是否存在字符串str,若存在返回char[]下标,若不存在返回一个极大值(不一定是18446744073709551615)</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">string s=<span class="string">&quot;1234567890&quot;</span>;</span><br><span class="line">cout&lt;&lt;s.<span class="built_in">find</span>(<span class="string">&quot;123&quot;</span>,<span class="number">3</span>)&lt;&lt;endl;<span class="comment">//18446744073709551615</span></span><br><span class="line">cout&lt;&lt;s.<span class="built_in">find</span>(<span class="string">&quot;789&quot;</span>,<span class="number">3</span>);<span class="comment">//6</span></span><br></pre></td></tr></table></figure>
+
+<p>(2) rfind(string str,int n)</p>
+<p>直到下标n为止,查找字符串str</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">string s=<span class="string">&quot;1234567890&quot;</span>;</span><br><span class="line">cout&lt;&lt;s.<span class="built_in">find</span>(<span class="string">&quot;123&quot;</span>,<span class="number">3</span>)&lt;&lt;endl;<span class="comment">//0</span></span><br><span class="line">cout&lt;&lt;s.<span class="built_in">find</span>(<span class="string">&quot;789&quot;</span>,<span class="number">3</span>);<span class="comment">//18446744073709551615</span></span><br></pre></td></tr></table></figure>
+
+<p>(3) find_first_of(string str)</p>
+<p>查找str的某个字符,不需要整个字符串存在首次出现的位置</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">string s=<span class="string">&quot;1234567890&quot;</span>;</span><br><span class="line">cout&lt;&lt;s.<span class="built_in">find_first_of</span>(<span class="string">&quot;879&quot;</span>)&lt;&lt;endl;<span class="comment">//6,7在第6个</span></span><br><span class="line">cout&lt;&lt;s.<span class="built_in">find_first_of</span>(<span class="string">&quot;012&quot;</span>)&lt;&lt;endl;<span class="comment">//0,1在第0个</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="switch…case…"><a href="#switch…case…" class="headerlink" title="switch…case…"></a>switch…case…</h3><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span> <span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">   <span class="type">char</span> grade = <span class="string">&#x27;D&#x27;</span>;</span><br><span class="line">   <span class="keyword">switch</span>(grade)</span><br><span class="line">   &#123;</span><br><span class="line">   <span class="keyword">case</span> <span class="string">&#x27;A&#x27;</span> :</span><br><span class="line">      cout &lt;&lt; <span class="string">&quot;很棒！&quot;</span> &lt;&lt; endl; </span><br><span class="line">      <span class="keyword">break</span>;</span><br><span class="line">   <span class="keyword">case</span> <span class="string">&#x27;B&#x27;</span> :</span><br><span class="line">   <span class="keyword">case</span> <span class="string">&#x27;C&#x27;</span> :</span><br><span class="line">      cout &lt;&lt; <span class="string">&quot;做得好&quot;</span> &lt;&lt; endl;</span><br><span class="line">      <span class="keyword">break</span>;</span><br><span class="line">   <span class="keyword">case</span> <span class="string">&#x27;D&#x27;</span> :</span><br><span class="line">      cout &lt;&lt; <span class="string">&quot;您通过了&quot;</span> &lt;&lt; endl;</span><br><span class="line">      <span class="keyword">break</span>;</span><br><span class="line">   <span class="keyword">case</span> <span class="string">&#x27;F&#x27;</span> :</span><br><span class="line">      cout &lt;&lt; <span class="string">&quot;最好再试一下&quot;</span> &lt;&lt; endl;</span><br><span class="line">      <span class="keyword">break</span>;</span><br><span class="line">   <span class="keyword">default</span> :</span><br><span class="line">      cout &lt;&lt; <span class="string">&quot;无效的成绩&quot;</span> &lt;&lt; endl;</span><br><span class="line">   &#125;</span><br><span class="line">   <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+  </div>
+  
+</div>
+          </div>
+        </div>
+
+        <link rel="stylesheet" href="/css/footer.css">
+<div class="bottom-outer">
+  <div class="copyright">©2021 - 2021 By Tanger</div>
+  <div class="framework-info">
+    <span>Power by</span>
+    <a class="a1" target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>
+    <span class="footer-separator">|</span>
+    <span>Theme by</span>
+    <a class="a2" target="_blank" rel="noopener" href="https://github.com/redhat123456/hexo-theme-MiHoYo">MiHoYo</a>
+  </div>
+</div>
+
+          
+            <!-- scripts list from theme config.yml -->
+            
+              <script src="/js/MiHoYo.js"></script>
+              
+                
+
+  </body>
+
+  </html>
