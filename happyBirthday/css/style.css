@@ -33,7 +33,7 @@ h1, h2, span {
     position: fixed;
     text-align: center;
     width: 100%;
-    top: 120px;
+    top: 140px;
     font-size: 90px;
     background: -webkit-linear-gradient(0deg, #ceadfc 0%, #a3bbfb 100%);
     -webkit-background-clip: text;
@@ -48,7 +48,7 @@ h1, h2, span {
     position: fixed;
     text-align: center;
     width: 100%;
-    top: 70px;
+    top: 650px;
     font-size: 70px;
   }
 
@@ -57,7 +57,7 @@ h1, h2, span {
     text-align: center;
     width: 100%;
     top: 50px;
-    font-size: 90px;
+    font-size: 60px;
     background: -webkit-linear-gradient(90deg, #e9e6ff 0%, white 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
