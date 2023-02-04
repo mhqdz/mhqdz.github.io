@@ -23,7 +23,7 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
         
-        <lastBuildDate>Sun, 05 Feb 2023 05:22:29 &#43;0800</lastBuildDate>
+        <lastBuildDate>Sun, 05 Feb 2023 05:30:56 &#43;0800</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://mhqdz.cn/rss.xml" />
         
@@ -9279,7 +9279,7 @@ public 的访问级别是最高的，其次是 protected、默认和 private.
             </item>
         
             <item>
-                <title>C&#43;&#43;</title>
+                <title>c&#43;&#43;</title>
                 <link>https://mhqdz.cn/posts/c&#43;&#43;/</link>
                 <guid isPermaLink="true">https://mhqdz.cn/posts/c&#43;&#43;/</guid>
                 <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
