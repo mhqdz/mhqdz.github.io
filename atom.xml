@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
     <title type="text">『妹红祈祷中』</title>
     <subtitle type="html">妹红祈祷中的博客</subtitle>
-    <updated>2023-02-23T19:16:22&#43;08:00</updated>
+    <updated>2023-03-01T22:03:15&#43;08:00</updated>
     <id>https://mhqdz.cn/</id>
     <link rel="alternate" type="text/html" href="https://mhqdz.cn/" />
     <link rel="self" type="application/atom&#43;xml" href="https://mhqdz.cn/atom.xml" />
@@ -7206,7 +7206,7 @@
             <title type="text">gRPC</title>
             <link rel="alternate" type="text/html" href="https://mhqdz.cn/posts/grpc/" />
             <id>https://mhqdz.cn/posts/grpc/</id>
-            <updated>2023-02-07T23:11:41&#43;08:00</updated>
+            <updated>2023-02-25T21:35:37&#43;08:00</updated>
             <published>2022-08-28T12:01:15&#43;00:00</published>
             <author>
                     <name>mhqdz</name>
@@ -9870,7 +9870,9 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;</content>
+&lt;/div&gt;&lt;h1 id=&#34;dubbo-go&#34;&gt;dubbo-go&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://cn.dubbo.apache.org/zh-cn/overview/home/&#34;&gt;官方文档&lt;/a&gt;&lt;/p&gt;
+</content>
             
             
             
