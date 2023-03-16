@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
     <title type="text">『妹红祈祷中』</title>
     <subtitle type="html">妹红祈祷中的博客</subtitle>
-    <updated>2023-03-16T12:36:02&#43;08:00</updated>
+    <updated>2023-03-16T13:08:37&#43;08:00</updated>
     <id>https://mhqdz.cn/</id>
     <link rel="alternate" type="text/html" href="https://mhqdz.cn/" />
     <link rel="self" type="application/atom&#43;xml" href="https://mhqdz.cn/atom.xml" />
@@ -20,7 +20,7 @@
             <title type="text">WailsStudy-TodoList</title>
             <link rel="alternate" type="text/html" href="https://mhqdz.cn/posts/wailsstudy-todolist/" />
             <id>https://mhqdz.cn/posts/wailsstudy-todolist/</id>
-            <updated>2023-03-16T12:35:22&#43;08:00</updated>
+            <updated>2023-03-16T13:08:18&#43;08:00</updated>
             <published>2023-02-18T22:14:31&#43;08:00</published>
             <author>
                     <name>mhqdz</name>
@@ -31,7 +31,7 @@
             
                 <content type="html">&lt;h2 id=&#34;最终成果&#34;&gt;最终成果&lt;/h2&gt;
 &lt;p&gt;项目地址:&lt;a href=&#34;https://github.com/mhqdz/todolist-WailsStudy&#34;&gt;mhqdz/todolist-WailsStudy (github.com)&lt;/a&gt;&lt;/p&gt;
-&lt;img src=&#34;https://mhqdz-os0-1304269214.cos.ap-shanghai.myqcloud.com/images/f66b6f0d935c9f5845082f5c65fd915.png&#34; alt=&#34;f66b6f0d935c9f5845082f5c65fd915&#34; style=&#34;zoom:50%;&#34; /&gt;
+&lt;img src=&#34;https://mhqdz-os0-1304269214.cos.ap-shanghai.myqcloud.com/images/1419a8a6e659b3373e2cf3aa4b40a97.png&#34; alt=&#34;1419a8a6e659b3373e2cf3aa4b40a97&#34; style=&#34;zoom: 67%;&#34; /&gt;
 &lt;h2 id=&#34;wails&#34;&gt;Wails&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://wails.io/zh-Hans/docs/gettingstarted/installation&#34;&gt;Wails中文文档&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;安装&lt;/strong&gt;&lt;/p&gt;
