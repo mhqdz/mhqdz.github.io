@@ -3,13 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://mhqdz.cn/</loc>
-    <lastmod>2023-03-16T13:08:18+08:00</lastmod>
+    <lastmod>2023-04-15T10:28:10+08:00</lastmod>
+  </url><url>
+    <loc>https://mhqdz.cn/todo/23.03/</loc>
+    <lastmod>2023-04-15T10:28:10+08:00</lastmod>
   </url><url>
     <loc>https://mhqdz.cn/todo/23.02/</loc>
     <lastmod>2023-03-01T21:56:23+08:00</lastmod>
   </url><url>
-    <loc>https://mhqdz.cn/posts/wailsstudy-todolist/</loc>
-    <lastmod>2023-03-16T13:08:18+08:00</lastmod>
+    <loc>https://mhqdz.cn/posts/wails/</loc>
+    <lastmod>2023-03-28T16:27:14+08:00</lastmod>
   </url><url>
     <loc>https://mhqdz.cn/todo/23.01/</loc>
     <lastmod>2023-03-01T21:56:41+08:00</lastmod>
@@ -45,7 +48,7 @@
     <lastmod>2023-02-07T23:11:04+08:00</lastmod>
   </url><url>
     <loc>https://mhqdz.cn/posts/goweb-gin-gorm/</loc>
-    <lastmod>2023-02-21T16:31:07+08:00</lastmod>
+    <lastmod>2023-03-20T17:59:40+08:00</lastmod>
   </url><url>
     <loc>https://mhqdz.cn/posts/web%E5%89%8D%E7%AB%AF%E7%AC%94%E8%AE%B0/</loc>
     <lastmod>2023-02-07T23:12:34+08:00</lastmod>
@@ -54,7 +57,7 @@
     <lastmod>2023-02-21T16:30:10+08:00</lastmod>
   </url><url>
     <loc>https://mhqdz.cn/posts/go/</loc>
-    <lastmod>2023-02-21T16:31:36+08:00</lastmod>
+    <lastmod>2023-04-11T14:48:52+08:00</lastmod>
   </url><url>
     <loc>https://mhqdz.cn/posts/java%E7%AC%94%E8%AE%B0/</loc>
     <lastmod>2023-01-31T23:07:03+08:00</lastmod>
