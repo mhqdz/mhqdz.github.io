@@ -3,7 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://mhqdz.cn/</loc>
-    <lastmod>2023-04-15T10:28:10+08:00</lastmod>
+    <lastmod>2023-05-22T10:52:29+08:00</lastmod>
+  </url><url>
+    <loc>https://mhqdz.cn/todo/23.04-05/</loc>
+    <lastmod>2023-05-22T10:52:29+08:00</lastmod>
+  </url><url>
+    <loc>https://mhqdz.cn/posts/k8s/</loc>
+    <lastmod>2023-05-22T10:25:26+08:00</lastmod>
   </url><url>
     <loc>https://mhqdz.cn/todo/23.03/</loc>
     <lastmod>2023-04-15T10:28:10+08:00</lastmod>
@@ -24,7 +30,7 @@
     <lastmod>2023-02-07T23:54:59+08:00</lastmod>
   </url><url>
     <loc>https://mhqdz.cn/about/</loc>
-    <lastmod>2023-03-01T22:01:11+08:00</lastmod>
+    <lastmod>2023-05-14T16:19:16+08:00</lastmod>
   </url><url>
     <loc>https://mhqdz.cn/posts/hugo/</loc>
     <lastmod>2023-02-07T23:11:47+08:00</lastmod>
