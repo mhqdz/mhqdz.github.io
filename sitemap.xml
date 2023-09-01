@@ -3,10 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://mhqdz.cn/</loc>
-    <lastmod>2023-07-03T16:27:50+08:00</lastmod>
+    <lastmod>2023-09-01T19:12:07+08:00</lastmod>
+  </url><url>
+    <loc>https://mhqdz.cn/posts/websocket/</loc>
+    <lastmod>2023-09-01T19:12:07+08:00</lastmod>
+  </url><url>
+    <loc>https://mhqdz.cn/todo/23.07/</loc>
+    <lastmod>2023-08-25T21:33:28+08:00</lastmod>
+  </url><url>
+    <loc>https://mhqdz.cn/posts/nginx/</loc>
+    <lastmod>2023-08-13T12:48:26+08:00</lastmod>
   </url><url>
     <loc>https://mhqdz.cn/todo/23.06/</loc>
     <lastmod>2023-07-03T16:27:50+08:00</lastmod>
+  </url><url>
+    <loc>https://mhqdz.cn/todo/23.08/</loc>
+    <lastmod>2023-09-01T19:03:51+08:00</lastmod>
   </url><url>
     <loc>https://mhqdz.cn/posts/mysql%E7%B4%A2%E5%BC%95%E4%BC%98%E5%8C%96/</loc>
     <lastmod>2023-07-03T16:23:19+08:00</lastmod>
@@ -57,7 +69,7 @@
     <lastmod>2023-02-07T23:11:33+08:00</lastmod>
   </url><url>
     <loc>https://mhqdz.cn/posts/docker/</loc>
-    <lastmod>2023-06-19T16:16:52+08:00</lastmod>
+    <lastmod>2023-07-15T16:58:26+08:00</lastmod>
   </url><url>
     <loc>https://mhqdz.cn/posts/goweb-gin-gorm/</loc>
     <lastmod>2023-06-18T19:42:43+08:00</lastmod>
@@ -69,7 +81,7 @@
     <lastmod>2023-02-21T16:30:10+08:00</lastmod>
   </url><url>
     <loc>https://mhqdz.cn/posts/go/</loc>
-    <lastmod>2023-05-26T10:55:25+08:00</lastmod>
+    <lastmod>2023-08-17T16:18:10+08:00</lastmod>
   </url><url>
     <loc>https://mhqdz.cn/posts/java%E7%AC%94%E8%AE%B0/</loc>
     <lastmod>2023-01-31T23:07:03+08:00</lastmod>
